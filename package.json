@@ -1,0 +1,23 @@
+{
+  "name": "@lumjs/web-url-hash",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "exports":
+  {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "license": "MIT",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/supernovus/lum.web-url-hash.js.git"
+  },
+  "dependencies": {
+    "@lumjs/core": "^1.10.0"
+  },
+  "scripts":
+  {
+    "build-docs": "jsdoc -c ./jsdoc.json"
+  }
+}
